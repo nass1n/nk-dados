@@ -1,0 +1,1 @@
+{"ativo":"ECOM3","fechamentoAtivo":1.4,"pregao":"2026-10-09","selic":13.75,"series":[{"ticker":"ECOML150","tipo":"call","strike":1.5,"vencimento":"2026-12-18","premio":0.07,"dataUltimoNegocio":"2026-09-29","negocios":0,"volume":0,"vi":65.3584,"delta":0.3329,"gama":0.9756,"theta":-0.0014,"vega":0.0021}]}
