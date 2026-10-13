@@ -1,0 +1,12 @@
+{
+  "name": "nk-dados",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Indicadores de ações, FIIs e opções calculados com dados oficiais (CVM, B3 e Banco Central).",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test",
+    "gerar": "node src/gerar.js"
+  }
+}

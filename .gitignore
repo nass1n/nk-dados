@@ -1,0 +1,4 @@
+node_modules/
+saida-diagnostico/
+diagnostico.log
+.DS_Store
