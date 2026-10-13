@@ -1,0 +1,37 @@
+name: Atualizar dados
+on:
+  schedule:
+    - cron: "30 1 * * 2-6"   # 22h30 em Brasília, segunda a sexta
+    - cron: "30 10 * * 1-5"  # 7h30 em Brasília, segunda a sexta
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["src/**", "package.json", ".github/workflows/atualizar.yml"]
+permissions:
+  contents: write
+concurrency:
+  group: atualizar-dados
+  cancel-in-progress: false
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node --test
+      - name: Gerar dados
+        env:
+          MODO: ${{ github.event.schedule == '30 1 * * 2-6' && 'noturno' || (github.event.schedule == '30 10 * * 1-5' && 'matinal' || 'manual') }}
+        run: node --max-old-space-size=6144 src/gerar.js
+      - name: Publicar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A dados
+          if git diff --cached --quiet; then echo "Sem mudanças nos dados"; exit 0; fi
+          git commit -m "dados: pregão $(node -p "require('./dados/mercado.json').pregao")"
+          git pull --rebase -q origin main || true
+          git push
