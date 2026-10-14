@@ -16,6 +16,7 @@ oficiais, aplica as regras abaixo, valida e publica JSON em `dados/`.
 | [CVM – Informe mensal de FII](https://dados.cvm.gov.br/dataset/fii-doc-inf_mensal) | patrimônio, cotas, cotistas, rendimentos e composição do ativo dos FIIs |
 | [B3 – COTAHIST diário](https://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/historico/mercado-a-vista/series-historicas/) | fechamento e volume de ações, FIIs e opções (últimos 21 pregões) |
 | [Banco Central – SGS 432](https://dadosabertos.bcb.gov.br/dataset/432-taxa-de-juros---meta-selic-definida-pelo-copom) | meta Selic |
+| [Federal Reserve Bank of New York – EFFR](https://www.newyorkfed.org/markets/reference-rates/effr) | juros dos EUA: meta dos Fed Funds e taxa efetiva (opcional: se a API falhar, o campo sai nulo e o resto publica) |
 
 ## Regras
 
@@ -38,7 +39,7 @@ de volatilidade.
 
 ## Arquivos
 
-- `dados/mercado.json` — data do pregão, Selic e datas das fontes.
+- `dados/mercado.json` — data do pregão, Selic, juros dos EUA (`jurosEua`: `metaMin`, `metaMax`, `efetiva`, `data`) e datas das fontes.
 - `dados/acoes.json` — por ticker: empresa, setor, classe, período, fechamento, volume médio, LPA, VPA, P/L, P/VP,
   DY 12m, ROE, margem líquida, dívida líquida/EBITDA, CAGRs, valor de mercado.
 - `dados/fiis.json` — por ticker: nome, tipo, segmento, fechamento, VP da cota, P/VP, DY 12m, liquidez, cotistas e os 12 rendimentos.

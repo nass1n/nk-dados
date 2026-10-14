@@ -10,6 +10,7 @@ import {
 } from "./fontes/cvm.js";
 import { urlInformeFii, lerInformes } from "./fontes/fii.js";
 import { buscarSelic } from "./fontes/bcb.js";
+import { buscarJurosEua } from "./fontes/fed.js";
 import { linhaRelevante, agruparEmpresas, montarAcoes } from "./regras/acoes.js";
 import { montarFiis } from "./regras/fiis.js";
 import { montarOpcoes } from "./regras/opcoes.js";
@@ -62,6 +63,13 @@ export async function gerar({
   // 3. Selic
   const selic = await buscarSelic({ baixar });
   log(`Selic: ${selic.valor}% (${selic.data})`);
+  let jurosEua = null;
+  try {
+    jurosEua = await buscarJurosEua({ baixar });
+    log(`Juros EUA: meta ${jurosEua.metaMin}–${jurosEua.metaMax}%, efetiva ${jurosEua.efetiva}% (${jurosEua.data})`);
+  } catch (e) {
+    log(`aviso: juros dos EUA indisponíveis (${e.message})`);
+  }
 
   // 4. CVM
   const ano = Number(pregao.slice(0, 4));
@@ -129,7 +137,8 @@ export async function gerar({
     geradoEm: isoBrasilia(new Date()),
     pregao,
     selic: selic.valor,
-    fontes: { cvm: recebimento || null, b3: pregao, bcb: selic.data },
+    jurosEua,
+    fontes: { cvm: recebimento || null, b3: pregao, bcb: selic.data, fed: jurosEua?.data ?? null },
   };
 
   // 6. validação
