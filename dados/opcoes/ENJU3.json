@@ -1,0 +1,1 @@
+{"ativo":"ENJU3","fechamentoAtivo":8,"pregao":"2026-10-20","selic":13.75,"series":[{"ticker":"ENJUD99","tipo":"call","strike":98,"vencimento":"2027-04-16","premio":0.01,"dataUltimoNegocio":"2026-10-20","negocios":1,"volume":1,"vi":121.1287,"delta":0.0059,"gama":0.0025,"theta":-0.0005,"vega":0.0009}]}
