@@ -1,0 +1,20 @@
+name: Verificar cotação do minério (temporário)
+on:
+  push:
+    branches: [verificacao-minerio]
+permissions:
+  contents: write
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Consultar
+        run: python3 verificar.py > resultado.txt 2>&1 || true
+      - name: Publicar resultado
+        run: |
+          git config user.name "nk-dados-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add resultado.txt
+          git commit -m "resultado da verificação"
+          git push
