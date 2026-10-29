@@ -1,0 +1,54 @@
+agora (BRT): 2026-10-29 14:13
+
+== Yahoo TIO=F 1d/5m HTTP 429
+Too Many Requests
+
+
+== Yahoo TIO=F 1mo/1d HTTP 429
+Too Many Requests
+
+
+== TradingView busca 'iron ore' HTTP 200
+   SGX FEF | SGX IODEX <em>Iron</em> <em>Ore</em> Futures | futures USD | contratos: ['FEF1!', 'FEF2!', 'FEFV2026', 'FEFX2026', 'FEFZ2026', 'FEFF2027']
+   COMEX TIO | <em>Iron</em> <em>Ore</em> CFR China (Platts) Futures | futures USD | contratos: ['TIO1!', 'TIO2!', 'TIOV2026', 'TIOX2026', 'TIOZ2026', 'TIOF2027']
+   COMEX PAC | <em>Iron</em> <em>Ore</em> China Portside Fines CNH fot Qingdao (Argus) Futures | futures CNH | contratos: ['PAC1!', 'PAC2!', 'PACV2026', 'PACX2026', 'PACZ2026', 'PACF2027']
+   COMEX PAU | <em>Iron</em> <em>Ore</em> China Portside Fines USD Seaborne Equivalent (Argus) Futures | futures USD | contratos: ['PAU1!', 'PAU2!', 'PAUV2026', 'PAUX2026', 'PAUZ2026', 'PAUF2027']
+   HKEX FEM | <em>Iron</em> <em>Ore</em> Futures - Monthly Contract Futures | futures USD | contratos: ['FEM1!', 'FEM2!', 'FEMV2026', 'FEMX2026', 'FEMZ2026', 'FEMF2027']
+   HKEX FEQ | <em>Iron</em> <em>Ore</em> Futures - Quaterly Contract Futures | futures USD | contratos: ['FEQ1!', 'FEQ2!', 'FEQZ2026', 'FEQH2027', 'FEQM2027']
+   SGX FE1.Z | SGX IODEX <em>Iron</em> <em>Ore</em> Swap | futures USD | contratos: ['FE1.Z1!', 'FE1.Z2!', 'FE1.ZV2026', 'FE1.ZX2026', 'FE1.ZZ2026', 'FE1.ZF2027']
+   SGX FEF.Y | SGX IODEX <em>Iron</em> <em>Ore</em> Futures | futures USD | contratos: ['FEF.Y1!', 'FEF.Y2!', 'FEF.YV2026', 'FEF.YX2026', 'FEF.YZ2026', 'FEF.YF2027']
+   SGX M65F | SGX MB <em>Iron</em> <em>Ore</em> CFR China (65% Fe Fines) Index Futures | futures USD | contratos: ['M65F1!', 'M65F2!', 'M65FV2026', 'M65FX2026', 'M65FZ2026', 'M65FF2027']
+   SGX M58F | SGX MB <em>Iron</em> <em>Ore</em> CFR China (58% Fe Fines) Index Futures | futures USD | contratos: ['M58F1!', 'M58F2!', 'M58FV2026', 'M58FX2026', 'M58FZ2026', 'M58FF2027']
+   SGX LPF | SGX Platts <em>Iron</em> <em>Ore</em> CFR China (Lump Premium) Index Futures | futures USD | contratos: ['LPF1!', 'LPF2!', 'LPFV2026', 'LPFX2026', 'LPFZ2026', 'LPFF2027']
+   TMX FFL | Labrador <em>Iron</em> <em>Ore</em> Royalty Corporation Futures | futures CAD | contratos: ['FFL1!', 'FFL2!', 'FFLX2026', 'FFLZ2026', 'FFLF2027', 'FFLG2027']
+   CMC Markets IRON | <em>Iron</em> <em>Ore</em> | futures USD | contratos: ['IRONX2026']
+   TAIFEX RU1 | Century <em>Iron</em> And Steel Industrial Co Ltd Futures | futures TWD | contratos: ['RU11!', 'RU12!', 'RU1Z2026']
+   TAIFEX RUF | Century <em>Iron</em> And Steel Industrial Co., Ltd. Futures | futures TWD | contratos: ['RUF1!', 'RUF2!', 'RUFX2026', 'RUFZ2026', 'RUFH2027', 'RUFM2027']
+
+== TradingView busca 'FEF' HTTP 200
+   SGX <em>FEF</em> | SGX IODEX Iron Ore Futures | futures USD | contratos: ['<em>FEF</em>1!', '<em>FEF</em>2!', '<em>FEF</em>V2026', '<em>FEF</em>X2026', '<em>FEF</em>Z2026', '<em>FEF</em>F2027']
+   TAIFEX <em>FEF</em> | TA CHEN STAINLESS PIPE CO., LTD. FUTURES | futures TWD | contratos: ['<em>FEF</em>1!', '<em>FEF</em>2!', '<em>FEF</em>X2026', '<em>FEF</em>Z2026', '<em>FEF</em>H2027', '<em>FEF</em>M2027']
+   Euronext Paris <em>FEF</em> | FTSEurofirst 80 | futures EUR | contratos: ['<em>FEF</em>Z2026', '<em>FEF</em>H2027', '<em>FEF</em>M2027']
+   EUREX <em>FEF</em>D | MSCI EM Index Dividend Futures | futures USD | contratos: ['<em>FEF</em>D1!', '<em>FEF</em>D2!', '<em>FEF</em>DZ2026', '<em>FEF</em>DZ2027', '<em>FEF</em>DZ2028', '<em>FEF</em>DZ2029']
+   SGX <em>FEF</em>.Y | SGX IODEX Iron Ore Futures | futures USD | contratos: ['<em>FEF</em>.Y1!', '<em>FEF</em>.Y2!', '<em>FEF</em>.YV2026', '<em>FEF</em>.YX2026', '<em>FEF</em>.YZ2026', '<em>FEF</em>.YF2027']
+
+== TradingView busca 'TIO' HTTP 200
+   COMEX <em>TIO</em> | Iron Ore CFR China (Platts) Futures | futures USD | contratos: ['<em>TIO</em>1!', '<em>TIO</em>2!', '<em>TIO</em>V2026', '<em>TIO</em>X2026', '<em>TIO</em>Z2026', '<em>TIO</em>F2027']
+
+== TradingView scanner futures HTTP 200
+totalCount 6
+   SGX:FEF1! {'name': 'FEF1!', 'description': 'SGX IODEX Iron Ore Futures', 'close': 90.95, 'change': 0.22038567493113262, 'change_abs': 0.20000000000000284, 'currency': 'USD', 'update_mode': 'delayed_streaming_600', 'type': 'futures', 'volume': 12206, 'exchange': 'SGX', 'high': 91.4, 'low': 90.5, 'open': 91.25}
+   COMEX:TIO1! {'name': 'TIO1!', 'description': 'Iron Ore CFR China (Platts) Futures', 'close': 90.7, 'change': 0, 'change_abs': 0, 'currency': 'USD', 'update_mode': 'delayed_streaming_600', 'type': 'futures', 'volume': 0, 'exchange': 'COMEX', 'high': 90.7, 'low': 90.7, 'open': 90.7}
+   SGX:FEFX2026 {'name': 'FEFX2026', 'description': 'SGX IODEX Iron Ore Futures (Nov 2026)', 'close': 90.95, 'change': -0.49234135667396367, 'change_abs': -0.45000000000000284, 'currency': 'USD', 'update_mode': 'delayed_streaming_600', 'type': 'futures', 'volume': 12206, 'exchange': 'SGX', 'high': 91.4, 'low': 90.5, 'open': 91.25}
+   SGX:FEFZ2026 {'name': 'FEFZ2026', 'description': 'SGX IODEX Iron Ore Futures (Dec 2026)', 'close': 91, 'change': -0.546448087431694, 'change_abs': -0.5, 'currency': 'USD', 'update_mode': 'delayed_streaming_600', 'type': 'futures', 'volume': 12964, 'exchange': 'SGX', 'high': 91.45, 'low': 90.5, 'open': 91.3}
+   COMEX:TIOX2026 {'name': 'TIOX2026', 'description': 'Iron Ore CFR China (Platts) Futures (Nov 2026)', 'close': 90.31, 'change': 1.0178970917225911, 'change_abs': 0.9099999999999966, 'currency': 'USD', 'update_mode': 'delayed_streaming_600', 'type': 'futures', 'volume': 0, 'exchange': 'COMEX', 'high': 90.31, 'low': 90.31, 'open': 90.31}
+   COMEX:TIOZ2026 {'name': 'TIOZ2026', 'description': 'Iron Ore CFR China (Platts) Futures (Dec 2026)', 'close': 90.36, 'change': 0.9721756620851544, 'change_abs': 0.8700000000000045, 'currency': 'USD', 'update_mode': 'delayed_streaming_600', 'type': 'futures', 'volume': 0, 'exchange': 'COMEX', 'high': 90.36, 'low': 90.36, 'open': 90.36}
+
+== TradingView scanner global HTTP 200
+totalCount 6
+   SGX:FEF1! {'name': 'FEF1!', 'description': 'SGX IODEX Iron Ore Futures', 'close': 90.95, 'change': 0.22038567493113262, 'change_abs': 0.20000000000000284, 'currency': 'USD', 'update_mode': 'delayed_streaming_600', 'type': 'futures', 'volume': 12206, 'exchange': 'SGX', 'high': 91.4, 'low': 90.5, 'open': 91.25}
+   COMEX:TIO1! {'name': 'TIO1!', 'description': 'Iron Ore CFR China (Platts) Futures', 'close': 90.7, 'change': 0, 'change_abs': 0, 'currency': 'USD', 'update_mode': 'delayed_streaming_600', 'type': 'futures', 'volume': 0, 'exchange': 'COMEX', 'high': 90.7, 'low': 90.7, 'open': 90.7}
+   SGX:FEFX2026 {'name': 'FEFX2026', 'description': 'SGX IODEX Iron Ore Futures (Nov 2026)', 'close': 90.95, 'change': -0.49234135667396367, 'change_abs': -0.45000000000000284, 'currency': 'USD', 'update_mode': 'delayed_streaming_600', 'type': 'futures', 'volume': 12206, 'exchange': 'SGX', 'high': 91.4, 'low': 90.5, 'open': 91.25}
+   SGX:FEFZ2026 {'name': 'FEFZ2026', 'description': 'SGX IODEX Iron Ore Futures (Dec 2026)', 'close': 91, 'change': -0.546448087431694, 'change_abs': -0.5, 'currency': 'USD', 'update_mode': 'delayed_streaming_600', 'type': 'futures', 'volume': 12964, 'exchange': 'SGX', 'high': 91.45, 'low': 90.5, 'open': 91.3}
+   COMEX:TIOX2026 {'name': 'TIOX2026', 'description': 'Iron Ore CFR China (Platts) Futures (Nov 2026)', 'close': 90.31, 'change': 1.0178970917225911, 'change_abs': 0.9099999999999966, 'currency': 'USD', 'update_mode': 'delayed_streaming_600', 'type': 'futures', 'volume': 0, 'exchange': 'COMEX', 'high': 90.31, 'low': 90.31, 'open': 90.31}
+   COMEX:TIOZ2026 {'name': 'TIOZ2026', 'description': 'Iron Ore CFR China (Platts) Futures (Dec 2026)', 'close': 90.36, 'change': 0.9721756620851544, 'change_abs': 0.8700000000000045, 'currency': 'USD', 'update_mode': 'delayed_streaming_600', 'type': 'futures', 'volume': 0, 'exchange': 'COMEX', 'high': 90.36, 'low': 90.36, 'open': 90.36}
