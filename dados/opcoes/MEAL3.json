@@ -1,0 +1,1 @@
+{"ativo":"MEAL3","fechamentoAtivo":0.76,"pregao":"2026-10-30","selic":13.75,"series":[{"ticker":"MEALA10","tipo":"call","strike":1,"vencimento":"2027-01-15","premio":0.15,"dataUltimoNegocio":"2026-10-30","negocios":6,"volume":598,"vi":163.213,"delta":0.5053,"gama":0.7293,"theta":-0.0023,"vega":0.0013}]}
