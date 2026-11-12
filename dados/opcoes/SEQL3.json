@@ -1,0 +1,1 @@
+{"ativo":"SEQL3","fechamentoAtivo":9.42,"pregao":"2026-11-11","selic":13.75,"series":[{"ticker":"SEQLL10","tipo":"call","strike":15,"vencimento":"2026-12-18","premio":0.28,"dataUltimoNegocio":"2026-11-11","negocios":1,"volume":448,"vi":121.7525,"delta":0.1685,"gama":0.0683,"theta":-0.0185,"vega":0.0076}]}
