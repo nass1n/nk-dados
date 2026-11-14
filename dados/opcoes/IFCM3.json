@@ -1,0 +1,1 @@
+{"ativo":"IFCM3","fechamentoAtivo":1.12,"pregao":"2026-11-13","selic":13.75,"series":[{"ticker":"IFCMM250","tipo":"put","strike":1.2,"vencimento":"2027-01-15","premio":0.05,"dataUltimoNegocio":"2026-11-13","negocios":1,"volume":5,"vi":null,"delta":null,"gama":null,"theta":null,"vega":null}]}
