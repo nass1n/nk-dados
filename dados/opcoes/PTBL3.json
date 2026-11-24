@@ -1,0 +1,1 @@
+{"ativo":"PTBL3","fechamentoAtivo":1.3,"pregao":"2026-11-23","selic":13.75,"series":[{"ticker":"PTBLA30","tipo":"call","strike":3,"vencimento":"2027-01-15","premio":0.05,"dataUltimoNegocio":"2026-11-23","negocios":1,"volume":5,"vi":165.3134,"delta":0.1538,"gama":0.296,"theta":-0.0028,"vega":0.0011}]}
